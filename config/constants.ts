@@ -56,11 +56,30 @@ export type ValidSkills =
   | "Flutter"
   | "Dart"
   | "Flask"
-  | "Django"
-  | "FastAPI"
   | "SQL"
   | "NoSQL"
-  | "Framer Motion";
+  | "Framer Motion"
+  | "C++"
+  | "SQLite"
+  | "Microsoft SQL Server"
+  | "phpMyAdmin"
+  | "Qdrant Vector Database"
+  | "GitLab"
+  | "NGINX"
+  | "Cloudflare"
+  | "Ubuntu / WSL"
+  | "XAMPP"
+  | "Postman"
+  | "CMS (Joomla, Wordpress)"
+  | "Retrieval-Augmented Generation (RAG)"
+  | "Self-hosted LLM Integration"
+  | "Vector Search & Knowledge Bases"
+  | "Automation (n8n)"
+  | "Drizzle ORM"
+  | "Clerk Auth"
+  | "Web Speech API"
+  | "PWA"
+  | "REST API";
 
 export type ValidCategory =
   | "Full Stack"
@@ -69,7 +88,8 @@ export type ValidCategory =
   | "UI/UX"
   | "Web Dev"
   | "Mobile Dev"
-  | "3D Modeling";
+  | "3D Modeling"
+  | "Applied AI";
 
 export type ValidExpType = "Personal" | "Professional";
 

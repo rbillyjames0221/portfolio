@@ -21,8 +21,8 @@ export const routesConfig: any = {
       href: "/blogs",
     },
     {
-      title: "Community",
-      href: "/community",
+      title: "Resume",
+      href: "/resume",
     },
     {
       title: "Contact",

@@ -11,150 +11,149 @@ export const skillsUnsorted: skillsInterface[] = [
   {
     name: "Next.js",
     description:
-      "Effortlessly build dynamic apps with routing, layouts, loading UI, and API routes.",
+      "Build high-performance full-stack web applications with App Router, server actions, and SSR.",
     rating: 5,
     icon: Icons.nextjs,
   },
   {
-    name: "React",
+    name: "TypeScript",
     description:
-      "Craft interactive user interfaces using components, state, props, and virtual DOM.",
-    rating: 5,
-    icon: Icons.react,
-  },
-  {
-    name: "GraphQL",
-    description:
-      "Fetch data precisely with a powerful query language for APIs and runtime execution.",
-    rating: 4,
-    icon: Icons.graphql,
-  },
-  {
-    name: "Nest.js",
-    description:
-      "Create scalable and modular applications with a progressive Node.js framework.",
-    rating: 4,
-    icon: Icons.nestjs,
-  },
-  {
-    name: "express.js",
-    description:
-      "Build web applications and APIs quickly using a fast, unopinionated Node.js framework.",
-    rating: 5,
-    icon: Icons.express,
-  },
-  {
-    name: "Node.js",
-    description:
-      "Run JavaScript on the server side, enabling dynamic and responsive applications.",
-    rating: 5,
-    icon: Icons.nodejs,
-  },
-  {
-    name: "MongoDB",
-    description:
-      "Store and retrieve data seamlessly with a flexible and scalable NoSQL database.",
-    rating: 5,
-    icon: Icons.mongodb,
-  },
-  {
-    name: "Typescript",
-    description:
-      "Enhance JavaScript with static types, making code more understandable and reliable.",
+      "Develop type-safe, maintainable, and scalable enterprise applications with strict static typing.",
     rating: 5,
     icon: Icons.typescript,
   },
   {
-    name: "Javascript",
+    name: "React",
     description:
-      "Create interactive and dynamic web experiences with the versatile scripting language.",
+      "Craft reactive and intuitive user interfaces using modern hooks, state management, and reusable components.",
     rating: 5,
-    icon: Icons.javascript,
-  },
-  {
-    name: "HTML 5",
-    description:
-      "Structure web content beautifully with the latest version of HyperText Markup Language.",
-    rating: 4,
-    icon: Icons.html5,
-  },
-  {
-    name: "CSS 3",
-    description:
-      "Style web pages creatively with the latest iteration of Cascading Style Sheets.",
-    rating: 4,
-    icon: Icons.css3,
-  },
-  {
-    name: "React Native",
-    description:
-      "Develop cross-platform mobile apps using React for consistent and engaging experiences.",
-    rating: 4,
     icon: Icons.react,
   },
   {
-    name: "Angular",
+    name: "Python",
     description:
-      "Build dynamic web apps with a TypeScript-based open-source framework by Google.",
-    rating: 3,
-    icon: Icons.angular,
+      "Implement backend services, AI data pipelines, RAG ingestion scripts, and Flask applications.",
+    rating: 5,
+    icon: Icons.python,
   },
   {
-    name: "Redux",
+    name: "Retrieval-Augmented Generation (RAG)",
     description:
-      "Manage app state effectively using a predictable and centralized state container.",
-    rating: 4,
-    icon: Icons.redux,
+      "Build production RAG pipelines, semantic document chunking, embeddings, and context-grounded AI chat systems.",
+    rating: 5,
+    icon: Icons.sparkles,
   },
   {
-    name: "Socket.io",
+    name: "Node.js",
     description:
-      "Enable real-time, bidirectional communication between clients and servers effortlessly.",
-    rating: 3,
-    icon: Icons.socketio,
+      "Engineer fast and scalable server-side APIs, microservices, and asynchronous event-driven backends.",
+    rating: 5,
+    icon: Icons.nodejs,
   },
   {
-    name: "Material UI",
+    name: "PostgreSQL",
     description:
-      "Create stunning and responsive UIs with a popular React UI framework.",
-    rating: 4,
-    icon: Icons.mui,
+      "Design relational schemas, optimize complex queries, and manage transactional integrity with Drizzle and Prisma.",
+    rating: 5,
+    icon: Icons.postgresql,
   },
-
   {
     name: "Tailwind CSS",
     description:
-      "Design beautiful, modern websites faster with a utility-first CSS framework.",
+      "Design clean, responsive, and accessible user interfaces quickly with utility-first modern CSS.",
     rating: 5,
     icon: Icons.tailwindcss,
   },
   {
-    name: "AWS",
+    name: "Prisma ORM",
     description:
-      "Utilize Amazon Web Services to build and deploy scalable, reliable, and secure applications.",
-    rating: 3,
-    icon: Icons.amazonaws,
+      "Model application databases with intuitive schema definition, type-safe queries, and migrations.",
+    rating: 5,
+    icon: Icons.prisma,
   },
   {
-    name: "Bootstrap",
+    name: "Git & GitHub / GitLab",
     description:
-      "Quickly create responsive and appealing web designs using a popular CSS framework.",
-    rating: 2,
-    icon: Icons.bootstrap,
+      "Manage version control, code reviews, branch workflows, and multi-team collaboration across GitHub and GitLab.",
+    rating: 5,
+    icon: Icons.gitHub,
   },
   {
-    name: "MySQL",
+    name: "Flask",
     description:
-      "Manage and organize relational databases efficiently for data-driven applications.",
-    rating: 2,
+      "Develop lightweight, modular REST APIs, automation services, and device management backends in Python.",
+    rating: 4,
+    icon: Icons.flask,
+  },
+  {
+    name: "MySQL & SQL Server",
+    description:
+      "Manage relational databases, structured queries, stored procedures, and phpMyAdmin configurations.",
+    rating: 4,
     icon: Icons.mysql,
   },
   {
-    name: "Netlify",
+    name: "PHP & Laravel",
     description:
-      "Manage and organize relational databases efficiently for data-driven applications.",
+      "Build MVC web applications, manage administrative backend tools, and integrate relational systems.",
     rating: 4,
-    icon: Icons.netlify,
+    icon: Icons.laravel,
+  },
+  {
+    name: "Vue.js",
+    description:
+      "Create lightweight reactive client-side interfaces and modular front-end components.",
+    rating: 4,
+    icon: Icons.vuejs,
+  },
+  {
+    name: "C++",
+    description:
+      "Understand core memory management, data structures, algorithms, and low-level system computing.",
+    rating: 4,
+    icon: Icons.cplusplus,
+  },
+  {
+    name: "Qdrant Vector Database",
+    description:
+      "Store, index, and query high-dimensional embeddings for fast semantic search and similarity retrieval.",
+    rating: 4,
+    icon: Icons.database,
+  },
+  {
+    name: "NGINX & Cloudflare",
+    description:
+      "Configure reverse proxies, SSL/TLS, edge caching, and DNS routing for production web systems.",
+    rating: 4,
+    icon: Icons.nginx,
+  },
+  {
+    name: "Ubuntu / WSL & Linux",
+    description:
+      "Deploy and manage services in Linux environments, bash scripting, and developer toolchains.",
+    rating: 4,
+    icon: Icons.ubuntu,
+  },
+  {
+    name: "Postman & API Design",
+    description:
+      "Architect RESTful APIs, test endpoints, automate request workflows, and document API contracts.",
+    rating: 4,
+    icon: Icons.postman,
+  },
+  {
+    name: "CMS (Wordpress, Joomla)",
+    description:
+      "Customize, configure, and maintain enterprise CMS portals, plugins, and content architecture.",
+    rating: 4,
+    icon: Icons.wordpress,
+  },
+  {
+    name: "Automation (n8n)",
+    description:
+      "Design event-driven workflows, webhook automations, and third-party system integrations.",
+    rating: 3,
+    icon: Icons.n8n,
   },
 ];
 

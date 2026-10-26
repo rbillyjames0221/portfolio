@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 
 import PageContainer from "@/components/common/page-container";
+import EducationCard from "@/components/experience/education-card";
 import Timeline from "@/components/experience/timeline";
 import { experiences } from "@/config/experience";
 import { pagesConfig } from "@/config/pages";
@@ -15,6 +16,7 @@ export const metadata: Metadata = {
     "software developer experience",
     "developer portfolio",
     "work experience",
+    "Billy James Ramos",
   ],
   alternates: {
     canonical: `${siteConfig.url}/experience`,
@@ -28,6 +30,7 @@ export default function ExperiencePage() {
       description={pagesConfig.experience.description}
     >
       <Timeline experiences={experiences} />
+      <EducationCard />
     </PageContainer>
   );
 }
