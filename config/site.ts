@@ -11,9 +11,9 @@ export const siteConfig = {
     templateRepo: "https://github.com/rbillyjames0221/portfolio",
   },
   ogImage:
-    "https://avatars.githubusercontent.com/u/95529860?v=4",
+    "https://billyjamesramos.com/ramos-avatar.png",
   iconIco: "/favicon.ico",
-  logoIcon: "/favicon.ico",
+  logoIcon: "/ramos-avatar.png",
   keywords: [
     "Billy James Ramos",
     "ICT Systems Developer",
