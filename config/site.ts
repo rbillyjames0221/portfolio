@@ -8,7 +8,7 @@ export const siteConfig = {
   links: {
     twitter: "https://github.com/rbillyjames0221",
     github: "https://github.com/rbillyjames0221",
-    templateRepo: "https://github.com/rbillyjames0221/psgc-api",
+    templateRepo: "https://github.com/rbillyjames0221/portfolio",
   },
   ogImage:
     "https://avatars.githubusercontent.com/u/95529860?v=4",
